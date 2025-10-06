@@ -1,0 +1,16 @@
+---
+title: "About"
+image: lemon_cropped.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com/jay-uu
+
+---
+
+Created for the PhD course *Applied Bioinformatics*.
