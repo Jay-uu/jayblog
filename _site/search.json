@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Created for the PhD course Applied Bioinformatics."
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -14,11 +7,18 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/image-posts/first_post.html",
+    "href": "posts/image-posts/first_post.html",
+    "title": "Let the ultimate blogging begin",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This text should be a preview for the post.\n\nWhile this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Created for the PhD course Applied Bioinformatics."
   },
   {
     "objectID": "index.html",
@@ -28,17 +28,10 @@
     "text": "Let the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/first_post.html",
-    "href": "posts/post-with-code/first_post.html",
-    "title": "Let the ultimate blogging begin",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
-  },
-  {
-    "objectID": "posts/image-posts/first_post.html",
-    "href": "posts/image-posts/first_post.html",
-    "title": "Let the ultimate blogging begin",
-    "section": "",
-    "text": "This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
+    "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
   }
 ]
