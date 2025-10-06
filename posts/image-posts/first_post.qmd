@@ -11,6 +11,6 @@ This text should be a preview for the post.
 
 ![](moss_in_water.jpg)
 
-While this text is only visible when you're on the page for this post.
+While this text is only visible when you're on the page for this post.<br>
 This is a picture I took while out on a walk during spring last year.
 Maybe it doesn't have anything directly to do with bioinformatics, but if you think about it - don't you wonder what's living in there?
