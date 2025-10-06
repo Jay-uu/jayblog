@@ -7,12 +7,12 @@ image: "fire_1.JPG"
 lightbox: true
 ---
 
-Today's topics: Git and Quarto
+# Today's topics: Git and Quarto
 
 ![](fire_1.JPG)
 
-# Git
+## Git
 Samuel taught us how to cooperate on a git project. I've worked a lot with git alone, keeping track of the development of my [Nextflow pipeline](https://github.com/Jay-uu/pangenome-pipeline). Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.
 
-# Quarto
+## Quarto
 Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I'd say this blog is evidence for that!
