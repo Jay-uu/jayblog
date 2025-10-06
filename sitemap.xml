@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>jay-uu.github.io/jayblog/about.html</loc>
-    <lastmod>2025-10-06T12:47:51.265Z</lastmod>
+    <lastmod>2025-10-06T13:09:50.379Z</lastmod>
   </url>
   <url>
     <loc>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</loc>
-    <lastmod>2025-10-06T12:47:51.266Z</lastmod>
-  </url>
-  <url>
-    <loc>jay-uu.github.io/jayblog/index.html</loc>
-    <lastmod>2025-10-06T12:47:51.265Z</lastmod>
+    <lastmod>2025-10-06T13:09:50.384Z</lastmod>
   </url>
   <url>
     <loc>jay-uu.github.io/jayblog/posts/post-with-code/index.html</loc>
-    <lastmod>2025-10-06T12:47:51.271Z</lastmod>
+    <lastmod>2025-10-06T13:09:50.389Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/index.html</loc>
+    <lastmod>2025-10-06T13:09:50.379Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</loc>
+    <lastmod>2025-10-06T13:09:50.380Z</lastmod>
   </url>
   <url>
     <loc>jay-uu.github.io/jayblog/posts/welcome/index.html</loc>
-    <lastmod>2025-10-06T12:47:51.271Z</lastmod>
+    <lastmod>2025-10-06T13:09:50.389Z</lastmod>
   </url>
 </urlset>

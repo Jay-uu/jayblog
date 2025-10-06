@@ -44,6 +44,36 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Applied Bioinformatics Day 1</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Today’s topics: Git and Quarto</p>
+<p><a href="fire_1.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" class="img-fluid"></a></p>
+<section id="git" class="level1">
+<h1>Git</h1>
+<p>Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my <a href="https://github.com/Jay-uu/pangenome-pipeline">Nextflow pipeline</a>. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.</p>
+</section>
+<section id="quarto" class="level1">
+<h1>Quarto</h1>
+<p>Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>courses</category>
+  <category>report</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</guid>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" medium="image"/>
+</item>
+<item>
   <title>Let the ultimate blogging begin</title>
   <dc:creator>Jay Håkansson</dc:creator>
   <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>

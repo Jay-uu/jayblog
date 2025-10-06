@@ -14,18 +14,25 @@
     "text": "This text should be a preview for the post.\n\nWhile this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "jayblog",
-    "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "jayblog",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 3, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day1.html",
+    "href": "posts/image-posts/Applied_bioinfo_day1.html",
+    "title": "Applied Bioinformatics Day 1",
+    "section": "",
+    "text": "Today’s topics: Git and Quarto\n\n\nGit\nSamuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.\n\n\nQuarto\nFollowing a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
   },
   {
     "objectID": "posts/welcome/index.html",
