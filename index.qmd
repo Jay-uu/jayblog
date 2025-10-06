@@ -1,5 +1,5 @@
 ---
-title: "jayblog"
+title: "jaybog"
 listing:
   contents: posts
   feed: true
