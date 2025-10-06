@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Created for the PhD course Applied Bioinformatics."
+    "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
   },
   {
     "objectID": "posts/image-posts/Applied_bioinfo_day1.html",
@@ -28,18 +28,18 @@
     "text": "Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Created for the PhD course Applied Bioinformatics."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "jayblog",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
+    "text": "Applied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/image-posts/first_post.html",
