@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>jayblog</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>jay-uu.github.io/jayblog/</link>
+<atom:link href="jay-uu.github.io/jayblog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.8.24</generator>
 <lastBuildDate>Sun, 05 Oct 2025 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Let the ultimate blogging begin</title>
   <dc:creator>Jay Håkansson</dc:creator>
-  <link>https://your-website-url.example.com/posts/image-posts/first_post.html</link>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
   <description><![CDATA[ 
 
 
@@ -22,21 +22,21 @@
 
 
 <p>This text should be a preview for the post.</p>
-<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://your-website-url.example.com/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
+<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
 <p>While this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://your-website-url.example.com/posts/image-posts/first_post.html</guid>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
   <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
+  <link>jay-uu.github.io/jayblog/posts/post-with-code/</link>
   <description><![CDATA[ 
 
 
@@ -61,14 +61,14 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
+  <guid>jay-uu.github.io/jayblog/posts/post-with-code/</guid>
   <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <link>jay-uu.github.io/jayblog/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -76,14 +76,14 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
 
 
 <p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="jay-uu.github.io/jayblog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <guid>jay-uu.github.io/jayblog/posts/welcome/</guid>
   <pubDate>Thu, 02 Oct 2025 22:00:00 GMT</pubDate>
 </item>
 </channel>
