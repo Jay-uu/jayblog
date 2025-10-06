@@ -97,26 +97,5 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
 </item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="jay-uu.github.io/jayblog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>jay-uu.github.io/jayblog/posts/welcome/</guid>
-  <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-</item>
 </channel>
 </rss>
