@@ -9,30 +9,8 @@
 <link>jay-uu.github.io/jayblog/</link>
 <atom:link href="jay-uu.github.io/jayblog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Sun, 05 Oct 2025 22:00:00 GMT</lastBuildDate>
-<item>
-  <title>Let the ultimate blogging begin</title>
-  <dc:creator>Jay Håkansson</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This text should be a preview for the post.</p>
-<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
-<p>While this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
-</item>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Mon, 06 Oct 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -62,8 +40,30 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <category>code</category>
   <category>analysis</category>
   <guid>jay-uu.github.io/jayblog/posts/post-with-code/</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Let the ultimate blogging begin</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This text should be a preview for the post.</p>
+<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
+<p>While this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
@@ -84,7 +84,7 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
  ]]></description>
   <category>news</category>
   <guid>jay-uu.github.io/jayblog/posts/welcome/</guid>
-  <pubDate>Thu, 02 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
