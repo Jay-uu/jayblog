@@ -32,7 +32,21 @@
     "href": "posts/image-posts/Applied_bioinfo_day1.html",
     "title": "Applied Bioinformatics Day 1",
     "section": "",
-    "text": "Today’s topics: Git and Quarto\n\n\nGit\nSamuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.\n\n\nQuarto\nFollowing a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
+    "text": "Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.\n\n\n\nFollowing a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day1.html#git",
+    "href": "posts/image-posts/Applied_bioinfo_day1.html#git",
+    "title": "Applied Bioinformatics Day 1",
+    "section": "",
+    "text": "Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo."
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day1.html#quarto",
+    "href": "posts/image-posts/Applied_bioinfo_day1.html#quarto",
+    "title": "Applied Bioinformatics Day 1",
+    "section": "",
+    "text": "Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
   },
   {
     "objectID": "posts/welcome/index.html",
