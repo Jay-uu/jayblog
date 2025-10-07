@@ -6,7 +6,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: www.linkedin.com/in/jay-hakansson-48419523a
     - icon: github
       text: Github
       href: https://github.com/jay-uu
