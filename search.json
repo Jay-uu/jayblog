@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Created for the PhD course Applied Bioinformatics."
+  },
+  {
+    "objectID": "posts/image-posts/first_post.html",
+    "href": "posts/image-posts/first_post.html",
+    "title": "Let the ultimate blogging begin",
+    "section": "",
+    "text": "This text should be a preview for the post.\n\nWhile this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "jayblog",
+    "section": "",
+    "text": "Applied Bioinformatics Day 2\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 7, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/image-posts/Applied_bioinfo_day1.html",
@@ -28,24 +49,24 @@
     "text": "Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "posts/image-posts/Applied_bioinfo_day2.html",
+    "href": "posts/image-posts/Applied_bioinfo_day2.html",
+    "title": "Applied Bioinformatics Day 2",
     "section": "",
-    "text": "Created for the PhD course Applied Bioinformatics."
+    "text": "Pixi seems like a really nice environment manager. I especially like that you can run things from outside the env. There’s benefits to having the environment with the project, both for easier cleanup but also to easily have scripts associated with an environment. I like that conda keeps all the environments in one place, it feels clean, but this way also makes a lot of sense.\n\n\n\nContainers are something I’ve really wanted to try out for a long time. I think it’s something that would be so good to have when I finally get around to publishing my work. Making my own container image will probably be a challenge, but at least now I have some familiarity with using them - and that’s the first step!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "jayblog",
+    "objectID": "posts/image-posts/Applied_bioinfo_day2.html#environments",
+    "href": "posts/image-posts/Applied_bioinfo_day2.html#environments",
+    "title": "Applied Bioinformatics Day 2",
     "section": "",
-    "text": "Applied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+    "text": "Pixi seems like a really nice environment manager. I especially like that you can run things from outside the env. There’s benefits to having the environment with the project, both for easier cleanup but also to easily have scripts associated with an environment. I like that conda keeps all the environments in one place, it feels clean, but this way also makes a lot of sense."
   },
   {
-    "objectID": "posts/image-posts/first_post.html",
-    "href": "posts/image-posts/first_post.html",
-    "title": "Let the ultimate blogging begin",
+    "objectID": "posts/image-posts/Applied_bioinfo_day2.html#containers",
+    "href": "posts/image-posts/Applied_bioinfo_day2.html#containers",
+    "title": "Applied Bioinformatics Day 2",
     "section": "",
-    "text": "This text should be a preview for the post.\n\nWhile this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
+    "text": "Containers are something I’ve really wanted to try out for a long time. I think it’s something that would be so good to have when I finally get around to publishing my work. Making my own container image will probably be a challenge, but at least now I have some familiarity with using them - and that’s the first step!"
   }
 ]

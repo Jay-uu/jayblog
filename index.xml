@@ -9,28 +9,28 @@
 <link>jay-uu.github.io/jayblog/</link>
 <atom:link href="jay-uu.github.io/jayblog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Sun, 05 Oct 2025 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Tue, 07 Oct 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Applied Bioinformatics Day 1</title>
+  <title>Applied Bioinformatics Day 2</title>
   <dc:creator>Jay Håkansson</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</link>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day2.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="todays-topics-git-and-quarto" class="level1">
-<h1>Today’s topics: Git and Quarto</h1>
-<p><a href="fire_1.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" class="img-fluid"></a></p>
-<section id="git" class="level2">
-<h2 class="anchored" data-anchor-id="git">Git</h2>
-<p>Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my <a href="https://github.com/Jay-uu/pangenome-pipeline">Nextflow pipeline</a>. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.</p>
+<section id="todays-topics-pixi-and-containers" class="level1">
+<h1>Today’s topics: Pixi and Containers</h1>
+<p><a href="&quot;lilac_liverpool_flowers.JPG&quot;" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/&quot;lilac_liverpool_flowers.JPG&quot;" class="img-fluid"></a></p>
+<section id="environments" class="level2">
+<h2 class="anchored" data-anchor-id="environments">Environments</h2>
+<p>Pixi seems like a really nice environment manager. I especially like that you can run things from outside the env. There’s benefits to having the environment with the project, both for easier cleanup but also to easily have scripts associated with an environment. I like that conda keeps all the environments in one place, it feels clean, but this way also makes a lot of sense.</p>
 </section>
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!</p>
+<section id="containers" class="level2">
+<h2 class="anchored" data-anchor-id="containers">Containers</h2>
+<p>Containers are something I’ve really wanted to try out for a long time. I think it’s something that would be so good to have when I finally get around to publishing my work. Making my own container image will probably be a challenge, but at least now I have some familiarity with using them - and that’s the first step!</p>
 
 
 </section>
@@ -39,31 +39,9 @@
  ]]></description>
   <category>courses</category>
   <category>report</category>
-  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" medium="image"/>
-</item>
-<item>
-  <title>Let the ultimate blogging begin</title>
-  <dc:creator>Jay Håkansson</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This text should be a preview for the post.</p>
-<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
-<p>While this text is only visible when you’re on the page for this post.<br> This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day2.html</guid>
+  <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/lilac_liverpool_flowers.JPG" medium="image"/>
 </item>
 <item>
   <title>Post With Code</title>
@@ -94,8 +72,62 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <category>code</category>
   <category>analysis</category>
   <guid>jay-uu.github.io/jayblog/posts/post-with-code/</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Applied Bioinformatics Day 1</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="todays-topics-git-and-quarto" class="level1">
+<h1>Today’s topics: Git and Quarto</h1>
+<p><a href="fire_1.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" class="img-fluid"></a></p>
+<section id="git" class="level2">
+<h2 class="anchored" data-anchor-id="git">Git</h2>
+<p>Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my <a href="https://github.com/Jay-uu/pangenome-pipeline">Nextflow pipeline</a>. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<p>Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>courses</category>
+  <category>report</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</guid>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" medium="image"/>
+</item>
+<item>
+  <title>Let the ultimate blogging begin</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This text should be a preview for the post.</p>
+<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
+<p>While this text is only visible when you’re on the page for this post.<br> This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
