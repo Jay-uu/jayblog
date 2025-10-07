@@ -1,0 +1,19 @@
+---
+title: "Applied Bioinformatics Day 2"
+author: "Jay Håkansson"
+date: "2025-10-07"
+categories: [courses, report]
+image: "lilac_liverpool_flowers.JPG"
+lightbox: true
+---
+
+# Today's topics: Pixi and Containers
+
+![]("lilac_liverpool_flowers.JPG")
+
+## Environments
+Pixi seems like a really nice environment manager. I especially like that you can run things from outside the env. There's benefits to having the environment with the project, both for easier cleanup but also to easily have scripts associated with an environment. I like that conda keeps all the environments in one place, it feels clean, but this way also makes a lot of sense.
+
+## Containers
+Containers are something I've really wanted to try out for a long time. I think it's something that would be so good to have when I finally get around to publishing my work. Making my own container image will probably be a challenge, but at least now I have some familiarity with using them - and that's the first step!
+

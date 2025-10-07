@@ -2,10 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/image-posts/Applied_bioinfo_day2.html",
       "/posts/image-posts/Applied_bioinfo_day1.html",
       "/posts/image-posts/first_post.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/post-with-code/index.html"
     ]
   }
 ]
