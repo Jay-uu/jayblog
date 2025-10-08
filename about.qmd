@@ -13,4 +13,5 @@ about:
 
 ---
 
-Created for the PhD course *Applied Bioinformatics*.
+Created for the PhD studies course *Applied Bioinformatics*,
+which is part of the [MedBioInfo PhD school](https://www.medbioinfo.se/).
