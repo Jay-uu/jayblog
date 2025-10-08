@@ -1,0 +1,18 @@
+---
+title: "Applied Bioinformatics Day 3"
+author: "Jay Håkansson"
+date: "2025-10-08"
+categories: [courses, report, nextflow]
+image: "scouting_tower.jpg"
+lightbox: true
+---
+
+# Today's topics: Nextflow
+
+After developing a nextflow pipeline for 2 years, I feel like I'm intimately familiar with the language, but there's always new things to learn! If anything, going through a tutorial makes it clear that you can structure and write things very differently.
+
+
+I didn't know about the account setting for [executor](https://www.nextflow.io/docs/latest/reference/config.html#executor) scope previously. It seems to have been added during an update last year. This is definitely something I will use in my config files from now on when working on clusters that use SLURM.
+
+![](scouting_tower.jpg)
+
