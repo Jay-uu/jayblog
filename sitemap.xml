@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>jay-uu.github.io/jayblog/about.html</loc>
-    <lastmod>2025-10-07T16:04:13.307Z</lastmod>
-  </url>
-  <url>
-    <loc>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</loc>
-    <lastmod>2025-10-07T16:04:13.340Z</lastmod>
-  </url>
-  <url>
-    <loc>jay-uu.github.io/jayblog/posts/post-with-code/index.html</loc>
-    <lastmod>2025-10-07T16:04:13.352Z</lastmod>
-  </url>
-  <url>
-    <loc>jay-uu.github.io/jayblog/index.html</loc>
-    <lastmod>2025-10-07T16:04:13.333Z</lastmod>
-  </url>
-  <url>
-    <loc>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</loc>
-    <lastmod>2025-10-07T16:04:13.334Z</lastmod>
+    <lastmod>2025-10-08T21:53:55.038Z</lastmod>
   </url>
   <url>
     <loc>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day2.html</loc>
-    <lastmod>2025-10-07T16:04:13.334Z</lastmod>
+    <lastmod>2025-10-08T21:53:55.061Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</loc>
+    <lastmod>2025-10-08T21:53:55.061Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/index.html</loc>
+    <lastmod>2025-10-08T21:53:55.060Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/posts/post-with-code/index.html</loc>
+    <lastmod>2025-10-08T21:53:55.153Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</loc>
+    <lastmod>2025-10-08T21:53:55.066Z</lastmod>
+  </url>
+  <url>
+    <loc>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day3.html</loc>
+    <lastmod>2025-10-08T21:53:55.061Z</lastmod>
   </url>
 </urlset>
