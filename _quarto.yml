@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 website:
-  description: "A blog built with Quarto"
+  description: "Jay blog in the bioinfo bog"
   site-url: "jay-uu.github.io/jayblog/" # you must change this appropriately for RSS feeds to work properly
   title: "jayblog"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/jay-uu
 format:
   html:
     theme:
