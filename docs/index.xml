@@ -8,9 +8,36 @@
 <title>jayblog</title>
 <link>jay-uu.github.io/jayblog/</link>
 <atom:link href="jay-uu.github.io/jayblog/index.xml" rel="self" type="application/rss+xml"/>
-<description>A blog built with Quarto</description>
+<description>Jay blog in the bioinfo bog</description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Mon, 06 Oct 2025 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 07 Oct 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Applied Bioinformatics Day 2</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day3.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="todays-topics-nextflow" class="level1">
+<h1>Today’s topics: Nextflow</h1>
+<p>After developing a nextflow pipeline for 2 years, I feel like I’m intimately familiar with the language, but there’s always new things to learn! If anything, going through a tutorial makes it clear that you can structure and write things very differently.</p>
+<p>I didn’t know about the account setting for <a href="https://www.nextflow.io/docs/latest/reference/config.html#executor">executor</a> scope previously. It seems to have been added during an update last year. This is definitely something I will use in my config files from now on when working on clusters that use SLURM.</p>
+<p><a href="scouting_tower.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" class="img-fluid"></a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>courses</category>
+  <category>report</category>
+  <category>nextflow</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day3.html</guid>
+  <pubDate>Tue, 07 Oct 2025 22:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Applied Bioinformatics Day 2</title>
   <dc:creator>Jay Håkansson</dc:creator>
