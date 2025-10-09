@@ -9,7 +9,7 @@
   {
     "objectID": "posts/image-posts/Applied_bioinfo_day3.html",
     "href": "posts/image-posts/Applied_bioinfo_day3.html",
-    "title": "Applied Bioinformatics Day 2",
+    "title": "Applied Bioinformatics Day 3",
     "section": "",
     "text": "Today’s topics: Nextflow\nAfter developing a nextflow pipeline for 2 years, I feel like I’m intimately familiar with the language, but there’s always new things to learn! If anything, going through a tutorial makes it clear that you can structure and write things very differently.\nI didn’t know about the account setting for executor scope previously. It seems to have been added during an update last year. This is definitely something I will use in my config files from now on when working on clusters that use SLURM."
   },
@@ -39,7 +39,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Created for the PhD course Applied Bioinformatics."
+    "text": "Created for the PhD studies course Applied Bioinformatics, which is part of the MedBioInfo PhD school."
   },
   {
     "objectID": "index.html",
