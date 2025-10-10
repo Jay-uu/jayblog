@@ -1,5 +1,5 @@
 ---
-title: "Applied Bioinformatics Day 3"
+title: "Applied Bioinformatics Day 4"
 author: "Jay Håkansson"
 date: "2025-10-08"
 categories: [courses, report, nextflow]
