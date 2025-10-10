@@ -39,6 +39,31 @@
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Applied Bioinformatics Day 3</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day4.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em><a href="https://amrei-bp.github.io/Applied_Bioinformatics_MedBioInfo_2025/course_AI.html">“Hold on to the ability to learn and the desire to be curious”</a></em></p>
+<section id="todays-topic-ai-in-bioinformatics" class="level1">
+<h1>Today’s topic AI in Bioinformatics</h1>
+
+
+</section>
+
+ ]]></description>
+  <category>courses</category>
+  <category>report</category>
+  <category>nextflow</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day4.html</guid>
+  <pubDate>Tue, 07 Oct 2025 22:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Applied Bioinformatics Day 2</title>
   <dc:creator>Jay Håkansson</dc:creator>
   <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day2.html</link>

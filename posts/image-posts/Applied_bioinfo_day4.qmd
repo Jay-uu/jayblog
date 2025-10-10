@@ -1,0 +1,15 @@
+---
+title: "Applied Bioinformatics Day 3"
+author: "Jay Håkansson"
+date: "2025-10-08"
+categories: [courses, report, nextflow]
+image: "scouting_tower.jpg"
+lightbox: true
+---
+
+*["Hold on to the ability to learn and the desire to be curious"](https://amrei-bp.github.io/Applied_Bioinformatics_MedBioInfo_2025/course_AI.html)*
+
+# Today's topic: AI in Bioinformatics
+
+Because of some network issues, this course section was moved to a day when I worked from home. I'm sad to have missed the class discussion, but I really enjoyed going over the course material and especially appreciated the repeated sentiment that you are a capable person who can figure things out! For me to be able to feel a sense of pride in my work I want to feel like I was the one who did it. That's why I've avoided using AI when coding.
+I know there are valuable use cases, but I feel like that doesn't involve the daily things but more for specific research projects with a clear idea and intention.
