@@ -196,7 +196,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="plotting-with-ggplot2" class="level1">
 <h1>Plotting with ggplot2</h1>
-<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!</p>
+<p>Making a figure can take me hours, just to select nice colours.</p>
+<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python, I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice. Since my supervisor even has his own R package that he will make work well with my pipeline output, I do need to know how to use it well!</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -211,7 +212,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">theme_set</span>(<span class="fu">theme_void</span>())</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>heart <span class="ot">=</span> <span class="fu">ggplot</span>(dat, <span class="fu">aes</span>(<span class="at">x=</span>x, <span class="at">y=</span>y)) <span class="sc">+</span> <span class="fu">geom_polygon</span>(<span class="at">colour=</span><span class="st">"red"</span>,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill=</span><span class="st">"hotpink"</span>) <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title =</span><span class="st">"How I feel about bioinformatics"</span>, <span class="at">subtitle =</span> <span class="st">"A ggplot"</span>) <span class="sc">+</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill=</span><span class="st">"hotpink"</span>) <span class="sc">+</span> <span class="fu">labs</span>(<span class="at">title =</span><span class="st">"How I feel about bioinformatics:"</span>, <span class="at">subtitle =</span> <span class="st">"A ggplot"</span>) <span class="sc">+</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>       <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"serif"</span>, <span class="at">size=</span><span class="dv">35</span>,</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"hotpink"</span>, <span class="at">face =</span> <span class="st">"bold.italic"</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">25</span>, <span class="at">face =</span> <span class="st">"italic"</span>,</span>

@@ -23,7 +23,8 @@
 
 <section id="plotting-with-ggplot2" class="level1">
 <h1>Plotting with ggplot2</h1>
-<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!</p>
+<p>Making a figure can take me hours, just to select nice colours.</p>
+<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python, I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice. Since my supervisor even has his own R package that he will make work well with my pipeline output, I do need to know how to use it well!</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -176,7 +177,7 @@ font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">title =</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"How I feel about bioinformatics"</span>, <span class="at" style="color: #657422;
+font-style: inherit;">"How I feel about bioinformatics:"</span>, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
 background-color: null;

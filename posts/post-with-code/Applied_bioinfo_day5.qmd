@@ -11,7 +11,9 @@ format:
 
 # Plotting with ggplot2
 
-So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!
+Making a figure can take me hours, just to select nice colours.
+
+So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python, I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice. Since my supervisor even has his own R package that he will make work well with my pipeline output, I do need to know how to use it well!
 
 ```{r}
 #| label: Test
@@ -26,7 +28,7 @@ options(repr.plot.width = 2, repr.plot.height = 2)
 theme_set(theme_void())
 
 heart = ggplot(dat, aes(x=x, y=y)) + geom_polygon(colour="red",
-       fill="hotpink") + labs(title ="How I feel about bioinformatics", subtitle = "A ggplot") +
+       fill="hotpink") + labs(title ="How I feel about bioinformatics:", subtitle = "A ggplot") +
        theme(plot.title = element_text(family = "serif", size=35,
        color = "hotpink", face = "bold.italic", hjust = 0.5),
        plot.subtitle = element_text(size = 25, face = "italic",
