@@ -3,7 +3,7 @@ title: "Applied Bioinformatics Day 4"
 author: "Jay Håkansson"
 date: "2025-10-09"
 categories: [courses, report, nextflow]
-image: "scouting_tower.jpg"
+image: "frustration_slurm_meme.jpg"
 lightbox: true
 ---
 
