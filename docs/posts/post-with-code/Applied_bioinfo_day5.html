@@ -159,8 +159,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="plotting-with-ggplot2" class="level1">
 <h1>Plotting with ggplot2</h1>
 <p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!</p>
-<p>library(ggplot2) dat &lt;- data.frame(cond = rep(c(“A”, “B”), each=10), xvar = 1:20 + rnorm(20,sd=3), yvar = 1:20 + rnorm(20,sd=3))</p>
-<p>ggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1) + geom_smooth()</p>
+<pre class="{R}"><code>library(ggplot2)
+dat &lt;- data.frame(cond = rep(c("A", "B"), each=10),
+                  xvar = 1:20 + rnorm(20,sd=3),
+                  yvar = 1:20 + rnorm(20,sd=3))
+
+ggplot(dat, aes(x=xvar, y=yvar)) +
+  geom_point(shape=1) + 
+  geom_smooth() </code></pre>
 
 
 </section>

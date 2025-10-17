@@ -88,6 +88,6 @@
     "href": "posts/post-with-code/Applied_bioinfo_day5.html",
     "title": "Applied Bioinformatics Day 5",
     "section": "",
-    "text": "Plotting with ggplot2\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\nlibrary(ggplot2) dat &lt;- data.frame(cond = rep(c(“A”, “B”), each=10), xvar = 1:20 + rnorm(20,sd=3), yvar = 1:20 + rnorm(20,sd=3))\nggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1) + geom_smooth()"
+    "text": "Plotting with ggplot2\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\nlibrary(ggplot2)\ndat &lt;- data.frame(cond = rep(c(\"A\", \"B\"), each=10),\n                  xvar = 1:20 + rnorm(20,sd=3),\n                  yvar = 1:20 + rnorm(20,sd=3))\n\nggplot(dat, aes(x=xvar, y=yvar)) +\n  geom_point(shape=1) + \n  geom_smooth()"
   }
 ]

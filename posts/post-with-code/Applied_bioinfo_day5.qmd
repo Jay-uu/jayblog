@@ -4,20 +4,26 @@ author: "Jay Håkansson"
 date: "2025-10-10"
 categories: [courses, report, R, code]
 lightbox: true
-code-fold: true
-jupyter: python3
+format:
+  html:
+    code-fold: true
 ---
 
 # Plotting with ggplot2
 
 So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!
 
+```{r}
+#| label: Test
 library(ggplot2)
-dat <- data.frame(cond = rep(c("A", "B"), each=10),
-                  xvar = 1:20 + rnorm(20,sd=3),
-                  yvar = 1:20 + rnorm(20,sd=3))
-
-ggplot(dat, aes(x=xvar, y=yvar)) +
-  geom_point(shape=1) + 
-  geom_smooth() 
-
+dat<- data.frame(t=seq(0, 2*pi, by=0.1) )
+ xhrt <- function(t) 16*sin(t)^3
+ yhrt <- function(t) 13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t)
+ dat$y=yhrt(dat$t)
+ dat$x=xhrt(dat$t)
+ #with(dat, polygon(x,y, col="red"))
+theme_set(theme_classic())
+ggplot(dat, aes(x=x, y=y)) + geom_polygon(colour="red", fill="red") +
+  ggtitle("How I feel about bionformatics")+
+  theme(plot.title.position = "plot")
+```

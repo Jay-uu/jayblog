@@ -1,8 +1,8 @@
 {
-  "hash": "d614fe975e2eb98af10be5fe11e5fa60",
+  "hash": "8d03f6629392dfe15c13e49129d62ffe",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Applied Bioinformatics Day 5\"\nauthor: \"Jay Håkansson\"\ndate: \"2025-10-10\"\ncategories: [courses, report, R, code]\nlightbox: true\ncode-fold: true\njupyter: python3\n---\n\n# Plotting with ggplot2\n\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\n\nlibrary(ggplot2)\ndat <- data.frame(cond = rep(c(\"A\", \"B\"), each=10),\n                  xvar = 1:20 + rnorm(20,sd=3),\n                  yvar = 1:20 + rnorm(20,sd=3))\n\nggplot(dat, aes(x=xvar, y=yvar)) +\n  geom_point(shape=1) + \n  geom_smooth() \n\n",
+    "markdown": "---\ntitle: \"Applied Bioinformatics Day 5\"\nauthor: \"Jay Håkansson\"\ndate: \"2025-10-10\"\ncategories: [courses, report, R, code]\nlightbox: true\ncode-fold: true\njupyter: python3\n---\n\n# Plotting with ggplot2\n\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\n\n```{R}\nlibrary(ggplot2)\ndat <- data.frame(cond = rep(c(\"A\", \"B\"), each=10),\n                  xvar = 1:20 + rnorm(20,sd=3),\n                  yvar = 1:20 + rnorm(20,sd=3))\n\nggplot(dat, aes(x=xvar, y=yvar)) +\n  geom_point(shape=1) + \n  geom_smooth() \n```\n\n",
     "supporting": [
       "Applied_bioinfo_day5_files"
     ],
