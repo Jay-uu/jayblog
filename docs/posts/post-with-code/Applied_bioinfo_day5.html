@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jay Håkansson">
-<meta name="dcterms.date" content="2025-10-09">
+<meta name="dcterms.date" content="2025-10-10">
 
-<title>Applied Bioinformatics Day 4 – jayblog</title>
+<title>Applied Bioinformatics Day 5 – jayblog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,11 +114,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Applied Bioinformatics Day 4</h1>
+      <h1 class="title">Applied Bioinformatics Day 5</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">courses</div>
                 <div class="quarto-category">report</div>
-                <div class="quarto-category">nextflow</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">code</div>
               </div>
                   </div>
   </div>
@@ -136,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 9, 2025</p>
+        <p class="date">October 10, 2025</p>
       </div>
     </div>
     
@@ -155,10 +156,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><em><a href="https://amrei-bp.github.io/Applied_Bioinformatics_MedBioInfo_2025/course_AI.html">“Hold on to the ability to learn and the desire to be curious”</a></em></p>
-<section id="todays-topic-ai-in-bioinformatics" class="level1">
-<h1>Today’s topic: AI in Bioinformatics</h1>
-<p>Because of some network issues, this course section was moved to a day when I worked from home. I’m sad to have missed the class discussion, but I really enjoyed going over the course material and especially appreciated the repeated sentiment that you are a capable person who can figure things out! For me to be able to feel a sense of pride in my work I want to feel like I was the one who did it. That’s why I’ve avoided using AI when coding. I know there are valuable use cases, but I feel like that doesn’t involve the daily things but more for specific research projects with a clear idea and intention.</p>
+<section id="plotting-with-ggplot2" class="level1">
+<h1>Plotting with ggplot2</h1>
+<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!</p>
+<p>library(ggplot2) dat &lt;- data.frame(cond = rep(c(“A”, “B”), each=10), xvar = 1:20 + rnorm(20,sd=3), yvar = 1:20 + rnorm(20,sd=3))</p>
+<p>ggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1) + geom_smooth()</p>
 
 
 </section>
