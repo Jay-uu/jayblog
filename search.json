@@ -1,59 +1,10 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
-  },
-  {
-    "objectID": "posts/image-posts/first_post.html",
-    "href": "posts/image-posts/first_post.html",
-    "title": "Let the ultimate blogging begin",
-    "section": "",
-    "text": "This text should be a preview for the post.\n\nWhile this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
-  },
-  {
-    "objectID": "posts/image-posts/Applied_bioinfo_day3.html",
-    "href": "posts/image-posts/Applied_bioinfo_day3.html",
-    "title": "Applied Bioinformatics Day 3",
-    "section": "",
-    "text": "Today’s topics: Nextflow\nAfter developing a nextflow pipeline for 2 years, I feel like I’m intimately familiar with the language, but there’s always new things to learn! If anything, going through a tutorial makes it clear that you can structure and write things very differently.\nI didn’t know about the account setting for executor scope previously. It seems to have been added during an update last year. This is definitely something I will use in my config files from now on when working on clusters that use SLURM."
-  },
-  {
-    "objectID": "posts/image-posts/Applied_bioinfo_day1.html",
-    "href": "posts/image-posts/Applied_bioinfo_day1.html",
-    "title": "Applied Bioinformatics Day 1",
-    "section": "",
-    "text": "Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.\n\n\n\nFollowing a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
-  },
-  {
-    "objectID": "posts/image-posts/Applied_bioinfo_day1.html#git",
-    "href": "posts/image-posts/Applied_bioinfo_day1.html#git",
-    "title": "Applied Bioinformatics Day 1",
-    "section": "",
-    "text": "Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo."
-  },
-  {
-    "objectID": "posts/image-posts/Applied_bioinfo_day1.html#quarto",
-    "href": "posts/image-posts/Applied_bioinfo_day1.html#quarto",
-    "title": "Applied Bioinformatics Day 1",
-    "section": "",
-    "text": "Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "Created for the PhD studies course Applied Bioinformatics, which is part of the MedBioInfo PhD school."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "jayblog",
-    "section": "",
-    "text": "Applied Bioinformatics Day 5\n\n\n\ncourses\n\nreport\n\nR\n\ncode\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 4\n\n\n\ncourses\n\nreport\n\nnextflow\n\n\n\n\n\n\n\n\n\nOct 9, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 3\n\n\n\ncourses\n\nreport\n\nnextflow\n\n\n\n\n\n\n\n\n\nOct 8, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 2\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 7, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/image-posts/Applied_bioinfo_day2.html",
@@ -84,10 +35,59 @@
     "text": "“Hold on to the ability to learn and the desire to be curious”\n\nToday’s topic: AI in Bioinformatics\nBecause of some network issues, this course section was moved to a day when I worked from home. I’m sad to have missed the class discussion, but I really enjoyed going over the course material and especially appreciated the repeated sentiment that you are a capable person who can figure things out! For me to be able to feel a sense of pride in my work I want to feel like I was the one who did it. That’s why I’ve avoided using AI when coding. I know there are valuable use cases, but I feel like that doesn’t involve the daily things but more for specific research projects with a clear idea and intention."
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\nprint(\"Hello, world!\")\n\nHello, world!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "jayblog",
+    "section": "",
+    "text": "Applied Bioinformatics Day 5\n\n\n\ncourses\n\nreport\n\nR\n\ncode\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 4\n\n\n\ncourses\n\nreport\n\nnextflow\n\n\n\n\n\n\n\n\n\nOct 9, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 3\n\n\n\ncourses\n\nreport\n\nnextflow\n\n\n\n\n\n\n\n\n\nOct 8, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 2\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 7, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics Day 1\n\n\n\ncourses\n\nreport\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\n\n\n\n\n\n\n\nLet the ultimate blogging begin\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJay Håkansson\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/post-with-code/Applied_bioinfo_day5.html",
     "href": "posts/post-with-code/Applied_bioinfo_day5.html",
     "title": "Applied Bioinformatics Day 5",
     "section": "",
     "text": "Plotting with ggplot2\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\nlibrary(ggplot2) dat &lt;- data.frame(cond = rep(c(“A”, “B”), each=10), xvar = 1:20 + rnorm(20,sd=3), yvar = 1:20 + rnorm(20,sd=3))\nggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1) + geom_smooth()"
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day1.html",
+    "href": "posts/image-posts/Applied_bioinfo_day1.html",
+    "title": "Applied Bioinformatics Day 1",
+    "section": "",
+    "text": "Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.\n\n\n\nFollowing a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day1.html#git",
+    "href": "posts/image-posts/Applied_bioinfo_day1.html#git",
+    "title": "Applied Bioinformatics Day 1",
+    "section": "",
+    "text": "Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my Nextflow pipeline. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo."
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day1.html#quarto",
+    "href": "posts/image-posts/Applied_bioinfo_day1.html#quarto",
+    "title": "Applied Bioinformatics Day 1",
+    "section": "",
+    "text": "Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!"
+  },
+  {
+    "objectID": "posts/image-posts/first_post.html",
+    "href": "posts/image-posts/first_post.html",
+    "title": "Let the ultimate blogging begin",
+    "section": "",
+    "text": "This text should be a preview for the post.\n\nWhile this text is only visible when you’re on the page for this post. This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?"
+  },
+  {
+    "objectID": "posts/image-posts/Applied_bioinfo_day3.html",
+    "href": "posts/image-posts/Applied_bioinfo_day3.html",
+    "title": "Applied Bioinformatics Day 3",
+    "section": "",
+    "text": "Today’s topics: Nextflow\nAfter developing a nextflow pipeline for 2 years, I feel like I’m intimately familiar with the language, but there’s always new things to learn! If anything, going through a tutorial makes it clear that you can structure and write things very differently.\nI didn’t know about the account setting for executor scope previously. It seems to have been added during an update last year. This is definitely something I will use in my config files from now on when working on clusters that use SLURM."
   }
 ]
