@@ -1,12 +1,17 @@
 {
-  "hash": "8d03f6629392dfe15c13e49129d62ffe",
+  "hash": "45d8e6df1fb03fa80fe35c422b41163c",
   "result": {
-    "engine": "jupyter",
-    "markdown": "---\ntitle: \"Applied Bioinformatics Day 5\"\nauthor: \"Jay Håkansson\"\ndate: \"2025-10-10\"\ncategories: [courses, report, R, code]\nlightbox: true\ncode-fold: true\njupyter: python3\n---\n\n# Plotting with ggplot2\n\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\n\n```{R}\nlibrary(ggplot2)\ndat <- data.frame(cond = rep(c(\"A\", \"B\"), each=10),\n                  xvar = 1:20 + rnorm(20,sd=3),\n                  yvar = 1:20 + rnorm(20,sd=3))\n\nggplot(dat, aes(x=xvar, y=yvar)) +\n  geom_point(shape=1) + \n  geom_smooth() \n```\n\n",
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Applied Bioinformatics Day 5\"\nauthor: \"Jay Håkansson\"\ndate: \"2025-10-10\"\ncategories: [courses, report, R, code]\nlightbox: true\nformat:\n  html:\n    code-fold: true\n---\n\n# Plotting with ggplot2\n\nSo, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\ndat<- data.frame(t=seq(0, 2*pi, by=0.1) )\n xhrt <- function(t) 16*sin(t)^3\n yhrt <- function(t) 13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t)\n dat$y=yhrt(dat$t)\n dat$x=xhrt(dat$t)\n\noptions(repr.plot.width = 2, repr.plot.height = 2)\ntheme_set(theme_void())\n\nheart = ggplot(dat, aes(x=x, y=y)) + geom_polygon(colour=\"red\",\n       fill=\"hotpink\") + labs(title =\"How I feel about bioinformatics\", subtitle = \"A ggplot\") +\n       theme(plot.title = element_text(family = \"serif\", size=35,\n       color = \"hotpink\", face = \"bold.italic\", hjust = 0.5),\n       plot.subtitle = element_text(size = 25, face = \"italic\",\n       hjust = 0.5, color = \"darkred\"))\nheart\n```\n\n::: {.cell-output-display}\n![](Applied_bioinfo_day5_files/figure-html/Test-1.png){width=672}\n:::\n:::\n\n",
     "supporting": [
       "Applied_bioinfo_day5_files"
     ],
-    "filters": [],
-    "includes": {}
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
   }
 }
