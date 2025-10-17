@@ -9,8 +9,8 @@
 <link>jay-uu.github.io/jayblog/</link>
 <atom:link href="jay-uu.github.io/jayblog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Jay blog in the bioinfo bog</description>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Thu, 09 Oct 2025 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Fri, 10 Oct 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Applied Bioinformatics Day 5</title>
   <dc:creator>Jay Håkansson</dc:creator>
@@ -23,9 +23,227 @@
 
 <section id="plotting-with-ggplot2" class="level1">
 <h1>Plotting with ggplot2</h1>
-<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python - I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice!</p>
-<p>library(ggplot2) dat &lt;- data.frame(cond = rep(c(“A”, “B”), each=10), xvar = 1:20 + rnorm(20,sd=3), yvar = 1:20 + rnorm(20,sd=3))</p>
-<p>ggplot(dat, aes(x=xvar, y=yvar)) + geom_point(shape=1) + geom_smooth()</p>
+<p>Making a figure can take me hours, just to select nice colours.</p>
+<p>So, I have my reservations about R, mostly because of habit. While there are libraries for using ggplot2 in python, I have actually tried working with my data directly in R. It is true that ggplot is good, I just need more practice. Since my supervisor even has his own R package that he will make work well with my pipeline output, I do need to know how to use it well!</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-2">dat<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">t=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>pi, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">by=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>) )</span>
+<span id="cb1-3"> xhrt <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(t) <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">16</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sin</span>(t)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">^</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span></span>
+<span id="cb1-4"> yhrt <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(t) <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">13</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cos</span>(t)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cos</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>t)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cos</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>t)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cos</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>t)</span>
+<span id="cb1-5"> dat<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>y<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">yhrt</span>(dat<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>t)</span>
+<span id="cb1-6"> dat<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>x<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">xhrt</span>(dat<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>t)</span>
+<span id="cb1-7"></span>
+<span id="cb1-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">options</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">repr.plot.width =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">repr.plot.height =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-9"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_set</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_void</span>())</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">heart <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(dat, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span>x, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y=</span>y)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_polygon</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"red"</span>,</span>
+<span id="cb1-12">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hotpink"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"How I feel about bioinformatics:"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subtitle =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"A ggplot"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-13">       <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot.title =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">element_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">family =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"serif"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">35</span>,</span>
+<span id="cb1-14">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hotpink"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bold.italic"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">hjust =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>),</span>
+<span id="cb1-15">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">plot.subtitle =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">element_text</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">face =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"italic"</span>,</span>
+<span id="cb1-16">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">hjust =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"darkred"</span>))</span>
+<span id="cb1-17">heart</span></code></pre></div></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="Applied_bioinfo_day5_files/figure-html/Test-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/post-with-code/Applied_bioinfo_day5_files/figure-html/Test-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -36,7 +254,7 @@
   <category>R</category>
   <category>code</category>
   <guid>jay-uu.github.io/jayblog/posts/post-with-code/Applied_bioinfo_day5.html</guid>
-  <pubDate>Thu, 09 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Applied Bioinformatics Day 4</title>
@@ -61,7 +279,7 @@
   <category>report</category>
   <category>nextflow</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day4.html</guid>
-  <pubDate>Wed, 08 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 09 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -88,7 +306,7 @@
   <category>report</category>
   <category>nextflow</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day3.html</guid>
-  <pubDate>Tue, 07 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -120,62 +338,8 @@
   <category>courses</category>
   <category>report</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day2.html</guid>
-  <pubDate>Mon, 06 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/lilac_liverpool_flowers.JPG" medium="image"/>
-</item>
-<item>
-  <title>Applied Bioinformatics Day 1</title>
-  <dc:creator>Jay Håkansson</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="todays-topics-git-and-quarto" class="level1">
-<h1>Today’s topics: Git and Quarto</h1>
-<p><a href="fire_1.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" class="img-fluid"></a></p>
-<section id="git" class="level2">
-<h2 class="anchored" data-anchor-id="git">Git</h2>
-<p>Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my <a href="https://github.com/Jay-uu/pangenome-pipeline">Nextflow pipeline</a>. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.</p>
-</section>
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!</p>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>courses</category>
-  <category>report</category>
-  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" medium="image"/>
-</item>
-<item>
-  <title>Let the ultimate blogging begin</title>
-  <dc:creator>Jay Håkansson</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This text should be a preview for the post.</p>
-<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
-<p>While this text is only visible when you’re on the page for this post.<br> This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Post With Code</title>
@@ -206,8 +370,62 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <category>code</category>
   <category>analysis</category>
   <guid>jay-uu.github.io/jayblog/posts/post-with-code/</guid>
-  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Applied Bioinformatics Day 1</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="todays-topics-git-and-quarto" class="level1">
+<h1>Today’s topics: Git and Quarto</h1>
+<p><a href="fire_1.JPG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" class="img-fluid"></a></p>
+<section id="git" class="level2">
+<h2 class="anchored" data-anchor-id="git">Git</h2>
+<p>Samuel taught us how to cooperate on a git project. I’ve worked a lot with git alone, keeping track of the development of my <a href="https://github.com/Jay-uu/pangenome-pipeline">Nextflow pipeline</a>. Working together with others in parallel was new, and a good exercise to get more familiar with the local repo, the staging area, the branches and the remote repo.</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<p>Following a tutorial step-by-step sounds easy, but suddenly you miss a step (somehow) and you have to back track and do things over and over to try and solve whatever issue you caused by not being familiar enough with the tool/method/commands yet. The almost daily bioinfo-student experience. Taking a step back, staying calm and reading the instructions/error messages/output carefully usually helps. I’d say this blog is evidence for that!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>courses</category>
+  <category>report</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</guid>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" medium="image"/>
+</item>
+<item>
+  <title>Let the ultimate blogging begin</title>
+  <dc:creator>Jay Håkansson</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This text should be a preview for the post.</p>
+<p><a href="moss_in_water.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" class="img-fluid"></a></p>
+<p>While this text is only visible when you’re on the page for this post.<br> This is a picture I took while out on a walk during spring last year. Maybe it doesn’t have anything directly to do with bioinformatics, but if you think about it - don’t you wonder what’s living in there?</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
+  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
