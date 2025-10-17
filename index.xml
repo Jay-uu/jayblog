@@ -9,8 +9,8 @@
 <link>jay-uu.github.io/jayblog/</link>
 <atom:link href="jay-uu.github.io/jayblog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Jay blog in the bioinfo bog</description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Fri, 10 Oct 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Thu, 09 Oct 2025 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Applied Bioinformatics Day 5</title>
   <dc:creator>Jay Håkansson</dc:creator>
@@ -254,7 +254,7 @@ font-style: inherit;">"darkred"</span>))</span>
   <category>R</category>
   <category>code</category>
   <guid>jay-uu.github.io/jayblog/posts/post-with-code/Applied_bioinfo_day5.html</guid>
-  <pubDate>Fri, 10 Oct 2025 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 09 Oct 2025 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Applied Bioinformatics Day 4</title>
@@ -279,7 +279,7 @@ font-style: inherit;">"darkred"</span>))</span>
   <category>report</category>
   <category>nextflow</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day4.html</guid>
-  <pubDate>Thu, 09 Oct 2025 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 08 Oct 2025 22:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -306,7 +306,7 @@ font-style: inherit;">"darkred"</span>))</span>
   <category>report</category>
   <category>nextflow</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day3.html</guid>
-  <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+  <pubDate>Tue, 07 Oct 2025 22:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/scouting_tower.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -338,40 +338,8 @@ font-style: inherit;">"darkred"</span>))</span>
   <category>courses</category>
   <category>report</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day2.html</guid>
-  <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 06 Oct 2025 22:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/lilac_liverpool_flowers.JPG" medium="image"/>
-</item>
-<item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>jay-uu.github.io/jayblog/posts/post-with-code/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is a post with executable code.</p>
-<div id="c7af8711" class="cell" data-execution_count="1">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Hello, world!</code></pre>
-</div>
-</div>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>jay-uu.github.io/jayblog/posts/post-with-code/</guid>
-  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
-  <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Applied Bioinformatics Day 1</title>
@@ -402,7 +370,7 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
   <category>courses</category>
   <category>report</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/Applied_bioinfo_day1.html</guid>
-  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/fire_1.JPG" medium="image"/>
 </item>
 <item>
@@ -424,8 +392,40 @@ font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
  ]]></description>
   <category>news</category>
   <guid>jay-uu.github.io/jayblog/posts/image-posts/first_post.html</guid>
-  <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
   <media:content url="jay-uu.github.io/jayblog/posts/image-posts/moss_in_water.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>jay-uu.github.io/jayblog/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+<div id="c7af8711" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Hello, world!"</span>)</span></code></pre></div></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello, world!</code></pre>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>jay-uu.github.io/jayblog/posts/post-with-code/</guid>
+  <pubDate>Sun, 05 Oct 2025 22:00:00 GMT</pubDate>
+  <media:content url="jay-uu.github.io/jayblog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
